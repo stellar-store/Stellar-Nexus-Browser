@@ -1,26 +1,11 @@
-# ⬡ Stellar Nexus Browser
+# Stellar-Nexus-Browser
+Navegador Web Ligero escrit0 en C++ y QT del navegador web enfocada en la ligeresa y la modernidad. Es el navegador web  principal del ecosistema Stellar, tiene soporte para pestañas, historial, marcadores,traductor, descargas y configuración.
 
-A modern, minimal web browser built with C++ and Qt — featuring a distinctive dark interface with accent color theming, multi-tab support, and a clean monospace aesthetic.
 
----
+Es desarrollado, empaquetado y distribuido por GBonachea bajo B&R.Corp y ART Ripoll (art.ripoll@aol.com)
 
-## Features
-
-| Feature | Details |
-|---------|---------|
-| **Multi-tab** | Custom-drawn tab bar with close buttons, middle-click to close |
-| **Navigation** | Back, Forward, Reload, Home buttons |
-| **Smart URL bar** | Detects URLs vs search queries automatically |
-| **Bookmarks** | Add, view, search, and open bookmarks |
-| **Downloads** | File download manager with progress |
-| **History** | Browsing history with search and clear |
-| **Settings** | Dark/light mode, accent color picker, search engine, privacy |
-| **Home page** | Custom live clock home page with search integration |
-| **Keyboard shortcuts** | Full shortcut support (see below) |
-
----
-
-## Dependencies
+<img width="1366" height="731" alt="stellar" src="https://github.com/user-attachments/assets/9c0ced6f-e899-457e-89aa-9096214f30f1" />
+## Dependencias
 
 | Package | Ubuntu/Debian | Fedora/RHEL |
 |---------|--------------|-------------|
@@ -74,7 +59,6 @@ chmod +x build.sh
 ```
 
 ---
-
 ## Keyboard Shortcuts
 
 | Shortcut | Action |
@@ -95,40 +79,3 @@ chmod +x build.sh
 | `Ctrl+Shift+Tab` | Previous tab |
 
 ---
-
-## Customization
-
-All settings are persisted via `QSettings` (stored in `~/.config/StellarBrowser/`).
-
-- **Accent color** — any color from the palette or a custom picker
-- **Dark / Light mode** — toggle in Settings → Appearance
-- **Search engine** — DuckDuckGo, Google, Bing, Startpage, Brave, Ecosia
-- **Home page** — set to any URL or keep `nexus://home`
-
----
-
-## Architecture
-
-```
-Nexus/
-├── CMakeLists.txt          # Build configuration
-├── build.sh                # Build helper script
-├── src/
-│   ├── main.cpp            # Entry point
-│   ├── mainwindow.*        # Main window orchestrator
-│   ├── tabbar.*            # Custom-drawn tab bar
-│   ├── navbar.*            # Navigation bar + URL input
-│   ├── browserpage.*       # WebEngine view wrapper + home page
-│   ├── bookmarkmanager.*   # Bookmark storage + dialog
-│   ├── downloadmanager.*   # Download handling + dialog
-│   ├── historymanager.*    # History storage + dialog
-│   └── settingsdialog.*    # Settings UI
-└── resources/
-    └── resources.qrc
-```
-
----
-
-## License
-
-MIT — free to use, modify, and distribute.
