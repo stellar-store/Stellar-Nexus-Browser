@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "/home/gus/Downloads/C/build/stellar_autogen",
+	"CMAKE_BINARY_DIR" : "/home/gus/Downloads/C/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/gus/Downloads/C/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/gus/Downloads/C",
+	"CMAKE_SOURCE_DIR" : "/home/gus/Downloads/C",
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/gus/Downloads/C/build/stellar_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/gus/Downloads/C/resources/traductor.png",
+		"/home/gus/Downloads/C/resources/back.png",
+		"/home/gus/Downloads/C/resources/star.png",
+		"/home/gus/Downloads/C/resources/forward.png",
+		"/home/gus/Downloads/C/resources/download.png",
+		"/home/gus/Downloads/C/resources/reload.png",
+		"/home/gus/Downloads/C/resources/menu.png",
+		"/home/gus/Downloads/C/resources/new_tab.png",
+		"/home/gus/Downloads/C/resources/about.png",
+		"/home/gus/Downloads/C/resources/extension.png",
+		"/home/gus/Downloads/C/resources/icon.png",
+		"/home/gus/Downloads/C/resources/close.png",
+		"/home/gus/Downloads/C/resources/home.png",
+		"/home/gus/Downloads/C/resources/go.png"
+	],
+	"LOCK_FILE" : "/home/gus/Downloads/C/build/CMakeFiles/stellar_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/gus/Downloads/C/build/CMakeFiles/stellar_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/gus/Downloads/C/resources/resources.qrc",
+	"VERBOSITY" : 0
+}

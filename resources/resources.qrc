@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>back.png</file>
+        <file>forward.png</file>
+        <file>reload.png</file>
+        <file>home.png</file>
+        <file>star.png</file>
+        <file>download.png</file>
+        <file>menu.png</file>
+        <file>close.png</file>
+        <file>new_tab.png</file>
+        <file>go.png</file>
+        <file>extension.png</file>
+        <file>traductor.png</file>
+        <file>about.png</file>
+        <file>icon.png</file>
+    </qresource>
+</RCC>
